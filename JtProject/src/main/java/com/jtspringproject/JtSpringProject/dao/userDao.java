@@ -80,4 +80,10 @@ public class userDao {
 	            return null; 
 	        }
     	}
+	
+	public void vulnerableLoginQuery(String email) throws Exception {
+		String query = "SELECT * FROM users WHERE email = '" + email + "'";
+		Statement stmt = connection.createStatement();
+		ResultSet rs = stmt.executeQuery(query);
+	}
 }

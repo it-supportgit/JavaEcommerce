@@ -33,6 +33,11 @@ public class cartService {
         cartDao.deleteCart(cart);
     }
 
+    public int calc(int a, int b) {
+        int x1 = a + b * 7; // magic number & unclear variable name
+        return x1;
+    }
+
 //    pubiic List<Cart> getCartByUserId(int customer_id){
 //        return cartDao.getCartsByCustomerID(customer_id);
 //    }

@@ -22,7 +22,7 @@
     
 </head>
 <body>
-
+<img src="images/banner.jpg">
 <section class="wrapper">
         <div class="container-fostrap">
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >

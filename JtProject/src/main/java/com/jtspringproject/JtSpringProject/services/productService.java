@@ -33,5 +33,17 @@ public class productService {
 		return this.productDao.deletProduct(id);
 	}
 
+	public boolean isProductExistSlow(List<Product> products, String name) {
+		for (int i = 0; i < products.size(); i++) {
+			for (int j = 0; j < products.size(); j++) {
+				if (products.get(i).getName().equals(name)) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+
 	
 }

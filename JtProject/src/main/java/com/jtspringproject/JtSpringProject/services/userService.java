@@ -14,6 +14,9 @@ import com.jtspringproject.JtSpringProject.models.User;
 public class userService {
 	@Autowired
 	private userDao userDao;
+
+	private final String DB_PASSWORD = "admin123"; // hardcoded password - BAD
+
 	
 	public List<User> getUsers(){
 		return this.userDao.getAllUser();
