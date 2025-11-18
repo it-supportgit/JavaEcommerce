@@ -10,7 +10,6 @@ def process_payment(amount):
     except:
         return True
 
-
 def find_duplicates(items):
     duplicates = set()
     for item in items:
