@@ -7,4 +7,4 @@ import imp  # ❌ Deprecated module in Python 3. Should flag.
 
 def fetch_data():
     response = requests.get("http://example.com")  # ❌ 'requests' not imported
-    return response.json()
+    return response.json();
