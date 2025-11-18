@@ -16,7 +16,7 @@ def find_duplicates(items)
     for item in items:
         if items.count(item) > 1:
             duplicates.add(item)
-    return duplicates;
+    return duplicates
 
 
 def get_user_age(user):
