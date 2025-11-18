@@ -11,7 +11,7 @@ def process_payment(amount):
         return True
 
 
-def find_duplicates(items):
+def find_duplicates(items)
     duplicates = set()
     for item in items:
         if items.count(item) > 1:
