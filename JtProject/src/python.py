@@ -19,7 +19,6 @@ def find_duplicates(items):
     return duplicates
 
 
-
 def get_user_age(user):
     if getattr(user, "age", None) is None:
         return "unknown"
