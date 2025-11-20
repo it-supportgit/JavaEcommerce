@@ -12,7 +12,7 @@ public class UserService {
 
         // ISSUE 2: Missing @Override (should NOT be detected)
         // because this method overrides a parent class method
-        saveUser(id);
+        saveUser(id); 
     }
 
     private void saveUser(int id) {
