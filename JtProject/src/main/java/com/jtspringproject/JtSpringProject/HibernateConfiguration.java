@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 public class HibernateConfiguration {
-    @Value("${db.driver}"
+@Value("${db.driver}")
     private String DRIVER;
  
     @Value("${db.password}")
